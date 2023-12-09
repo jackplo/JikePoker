@@ -7,7 +7,6 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-app/node_modules
 app/.DS_Store
 app/dist
 app/dist-ssr
@@ -30,6 +29,6 @@ app/coverage
 *.tsbuildinfo
 
 server/package-lock.json
-server/node_modules
+node_modules
 app/package-lock.json
 app/env.d.ts
