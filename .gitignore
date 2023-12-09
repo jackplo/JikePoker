@@ -1,0 +1,34 @@
+# Logs
+app/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+app/node_modules
+app/.DS_Store
+app/dist
+app/dist-ssr
+app/coverage
+*.local
+
+/cypress/videos/
+/cypress/screenshots/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+
+server/package-lock.json
+app/package-lock.json
+app/env.d.ts
