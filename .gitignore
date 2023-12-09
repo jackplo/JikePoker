@@ -30,5 +30,6 @@ app/coverage
 *.tsbuildinfo
 
 server/package-lock.json
+server/node_modules
 app/package-lock.json
 app/env.d.ts
